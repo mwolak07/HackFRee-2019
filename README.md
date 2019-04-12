@@ -4,6 +4,19 @@ Description:
 	- Open cv used to either read image from camera or disk
 	- Google vision label detection applied and top label is grabbed
 	- Selenium and beautifulsoup used to scrape either merriam webster or urban dictionary for description
-	- Image with label and description shown in jframe-based java gui
+	- Google translate used to translate results into any of the supported languages as specified by settings
+	- Image with label and description shown
+	- jframe based java GUI used
 
-Python environment automatically created with batch script
+Environment:
+	- Python 3.7
+	- selenium               --> pip install selenium
+	- beautifulsoup4         --> pip install beautifulsoup4
+	- google-cloud-vision    --> pip install google-cloud-vision
+	- google-cloud-translate --> pip install google-cloud-translate
+	- open cv 		 --> pip install opencv-python
+
+*environment is automatically created with setup batch script
+
+Team:
+Mateusz Wolak, Jon Riklan, Nicholas Procaccio, Alex Harris

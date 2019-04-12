@@ -17,6 +17,7 @@ Environment:
 	- open cv 		 --> pip install opencv-python
 
 *environment is automatically created with setup batch script
+*pip might default to python 2, in that case, use pip3
 
 Team:
 Mateusz Wolak, Jon Riklan, Nicholas Procaccio, Alex Harris

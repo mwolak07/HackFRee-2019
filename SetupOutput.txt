@@ -1,0 +1,102 @@
+
+C:\Users\mwola\Files\Coding\HackFRee-2019>pip install virtualenv 
+Collecting virtualenv
+  Downloading https://files.pythonhosted.org/packages/c5/97/00dd42a0fc41e9016b23f07ec7f657f636cb672fad9cf72b80f8f65c6a46/virtualenv-16.7.7-py2.py3-none-any.whl (3.4MB)
+Installing collected packages: virtualenv
+Successfully installed virtualenv-16.7.7
+
+C:\Users\mwola\Files\Coding\HackFRee-2019>cd C:\Users\mwola\Files\Coding\HackFRee-2019 
+
+C:\Users\mwola\Files\Coding\HackFRee-2019>virtualenv Environment 
+Using base prefix 'c:\\users\\mwola\\miniconda3'
+  No LICENSE.txt / LICENSE found in source
+New python executable in C:\Users\mwola\Files\Coding\HackFRee-2019\Environment\Scripts\python.exe
+Installing setuptools, pip, wheel...
+done.
+
+C:\Users\mwola\Files\Coding\HackFRee-2019>cd C:\Users\mwola\Files\Coding\HackFRee-2019/Environment/Scripts 
+
+C:\Users\mwola\Files\Coding\HackFRee-2019\Environment\Scripts>call activate 
+Collecting selenium
+  Using cached https://files.pythonhosted.org/packages/80/d6/4294f0b4bce4de0abf13e17190289f9d0613b0a44e5dd6a7f5ca98459853/selenium-3.141.0-py2.py3-none-any.whl
+Collecting urllib3
+  Downloading https://files.pythonhosted.org/packages/e0/da/55f51ea951e1b7c63a579c09dd7db825bb730ec1fe9c0180fc77bfb31448/urllib3-1.25.6-py2.py3-none-any.whl (125kB)
+Installing collected packages: urllib3, selenium
+Successfully installed selenium-3.141.0 urllib3-1.25.6
+Collecting beautifulsoup4
+  Downloading https://files.pythonhosted.org/packages/3b/c8/a55eb6ea11cd7e5ac4bacdf92bac4693b90d3ba79268be16527555e186f0/beautifulsoup4-4.8.1-py3-none-any.whl (101kB)
+Collecting soupsieve>=1.2
+  Downloading https://files.pythonhosted.org/packages/5d/42/d821581cf568e9b7dfc5b415aa61952b0f5e3dede4f3cbd650e3a1082992/soupsieve-1.9.4-py2.py3-none-any.whl
+Installing collected packages: soupsieve, beautifulsoup4
+Successfully installed beautifulsoup4-4.8.1 soupsieve-1.9.4
+Collecting google-cloud-vision
+  Downloading https://files.pythonhosted.org/packages/ec/e3/77b17733592fde11b7250444ddedd8d04ae1be6f0f4c0d9f47ed154a686e/google_cloud_vision-0.39.0-py2.py3-none-any.whl (418kB)
+Collecting google-api-core[grpc]<2.0.0dev,>=1.14.0
+  Downloading https://files.pythonhosted.org/packages/29/3a/c528ef37f48d6ffba16f0f3c0426456ba21e0dd32be9c61a2ade93e07faa/google_api_core-1.14.3-py2.py3-none-any.whl (68kB)
+Requirement already satisfied: setuptools>=34.0.0 in c:\users\mwola\files\coding\hackfree-2019\environment\lib\site-packages (from google-api-core[grpc]<2.0.0dev,>=1.14.0->google-cloud-vision) (41.5.1)
+Collecting pytz
+  Downloading https://files.pythonhosted.org/packages/e7/f9/f0b53f88060247251bf481fa6ea62cd0d25bf1b11a87888e53ce5b7c8ad2/pytz-2019.3-py2.py3-none-any.whl (509kB)
+Collecting protobuf>=3.4.0
+  Downloading https://files.pythonhosted.org/packages/a8/ae/a11b9b0c8e2410b11887881990b71f54ec39b17c4de2b5d850ef66aade8c/protobuf-3.10.0-cp37-cp37m-win_amd64.whl (1.0MB)
+Collecting six>=1.10.0
+  Using cached https://files.pythonhosted.org/packages/73/fb/00a976f728d0d1fecfe898238ce23f502a721c0ac0ecfedb80e0d88c64e9/six-1.12.0-py2.py3-none-any.whl
+Collecting requests<3.0.0dev,>=2.18.0
+  Using cached https://files.pythonhosted.org/packages/51/bd/23c926cd341ea6b7dd0b2a00aba99ae0f828be89d72b2190f27c11d4b7fb/requests-2.22.0-py2.py3-none-any.whl
+Collecting google-auth<2.0dev,>=0.4.0
+  Using cached https://files.pythonhosted.org/packages/c5/9b/ed0516cc1f7609fb0217e3057ff4f0f9f3e3ce79a369c6af4a6c5ca25664/google_auth-1.6.3-py2.py3-none-any.whl
+Collecting googleapis-common-protos<2.0dev,>=1.6.0
+  Downloading https://files.pythonhosted.org/packages/eb/ee/e59e74ecac678a14d6abefb9054f0bbcb318a6452a30df3776f133886d7d/googleapis-common-protos-1.6.0.tar.gz
+Collecting grpcio<2.0dev,>=1.8.2; extra == "grpc"
+  Downloading https://files.pythonhosted.org/packages/0d/bc/60eeb61f97837475dae356afa797c54ea6db986afaf6c6d6320a572ff8aa/grpcio-1.24.3-cp37-cp37m-win_amd64.whl (1.6MB)
+Collecting chardet<3.1.0,>=3.0.2
+  Using cached https://files.pythonhosted.org/packages/bc/a9/01ffebfb562e4274b6487b4bb1ddec7ca55ec7510b22e4c51f14098443b8/chardet-3.0.4-py2.py3-none-any.whl
+Requirement already satisfied: urllib3!=1.25.0,!=1.25.1,<1.26,>=1.21.1 in c:\users\mwola\files\coding\hackfree-2019\environment\lib\site-packages (from requests<3.0.0dev,>=2.18.0->google-api-core[grpc]<2.0.0dev,>=1.14.0->google-cloud-vision) (1.25.6)
+Collecting certifi>=2017.4.17
+  Downloading https://files.pythonhosted.org/packages/18/b0/8146a4f8dd402f60744fa380bc73ca47303cccf8b9190fd16a827281eac2/certifi-2019.9.11-py2.py3-none-any.whl (154kB)
+Collecting idna<2.9,>=2.5
+  Using cached https://files.pythonhosted.org/packages/14/2c/cd551d81dbe15200be1cf41cd03869a46fe7226e7450af7a6545bfc474c9/idna-2.8-py2.py3-none-any.whl
+Collecting pyasn1-modules>=0.2.1
+  Downloading https://files.pythonhosted.org/packages/52/50/bb4cefca37da63a0c52218ba2cb1b1c36110d84dcbae8aa48cd67c5e95c2/pyasn1_modules-0.2.7-py2.py3-none-any.whl (131kB)
+Collecting cachetools>=2.0.0
+  Downloading https://files.pythonhosted.org/packages/2f/a6/30b0a0bef12283e83e58c1d6e7b5aabc7acfc4110df81a4471655d33e704/cachetools-3.1.1-py2.py3-none-any.whl
+Collecting rsa>=3.1.4
+  Using cached https://files.pythonhosted.org/packages/02/e5/38518af393f7c214357079ce67a317307936896e961e35450b70fad2a9cf/rsa-4.0-py2.py3-none-any.whl
+Collecting pyasn1<0.5.0,>=0.4.6
+  Downloading https://files.pythonhosted.org/packages/a1/71/8f0d444e3a74e5640a3d5d967c1c6b015da9c655f35b2d308a55d907a517/pyasn1-0.4.7-py2.py3-none-any.whl (76kB)
+Building wheels for collected packages: googleapis-common-protos
+  Building wheel for googleapis-common-protos (setup.py): started
+  Building wheel for googleapis-common-protos (setup.py): finished with status 'done'
+  Created wheel for googleapis-common-protos: filename=googleapis_common_protos-1.6.0-cp37-none-any.whl size=77585 sha256=2c210800df015aa100cd398686aac112b61097b4ca9994f6b66523e085fbe92d
+  Stored in directory: C:\Users\mwola\AppData\Local\pip\Cache\wheels\9e\3d\a2\1bec8bb7db80ab3216dbc33092bb7ccd0debfb8ba42b5668d5
+Successfully built googleapis-common-protos
+Installing collected packages: pytz, six, protobuf, chardet, certifi, idna, requests, pyasn1, pyasn1-modules, cachetools, rsa, google-auth, googleapis-common-protos, grpcio, google-api-core, google-cloud-vision
+Successfully installed cachetools-3.1.1 certifi-2019.9.11 chardet-3.0.4 google-api-core-1.14.3 google-auth-1.6.3 google-cloud-vision-0.39.0 googleapis-common-protos-1.6.0 grpcio-1.24.3 idna-2.8 protobuf-3.10.0 pyasn1-0.4.7 pyasn1-modules-0.2.7 pytz-2019.3 requests-2.22.0 rsa-4.0 six-1.12.0
+Collecting google-cloud-translate
+  Downloading https://files.pythonhosted.org/packages/a8/73/bedb7509c851957f578d135e3a11e0c347219c46e6fee6126be8204bb68e/google_cloud_translate-2.0.0-py2.py3-none-any.whl (90kB)
+Requirement already satisfied: google-api-core[grpc]<2.0.0dev,>=1.14.0 in c:\users\mwola\files\coding\hackfree-2019\environment\lib\site-packages (from google-cloud-translate) (1.14.3)
+Collecting google-cloud-core<2.0dev,>=1.0.3
+  Downloading https://files.pythonhosted.org/packages/ee/f0/084f598629db8e6ec3627688723875cdb03637acb6d86999bb105a71df64/google_cloud_core-1.0.3-py2.py3-none-any.whl
+Requirement already satisfied: pytz in c:\users\mwola\files\coding\hackfree-2019\environment\lib\site-packages (from google-api-core[grpc]<2.0.0dev,>=1.14.0->google-cloud-translate) (2019.3)
+Requirement already satisfied: setuptools>=34.0.0 in c:\users\mwola\files\coding\hackfree-2019\environment\lib\site-packages (from google-api-core[grpc]<2.0.0dev,>=1.14.0->google-cloud-translate) (41.5.1)
+Requirement already satisfied: protobuf>=3.4.0 in c:\users\mwola\files\coding\hackfree-2019\environment\lib\site-packages (from google-api-core[grpc]<2.0.0dev,>=1.14.0->google-cloud-translate) (3.10.0)
+Requirement already satisfied: google-auth<2.0dev,>=0.4.0 in c:\users\mwola\files\coding\hackfree-2019\environment\lib\site-packages (from google-api-core[grpc]<2.0.0dev,>=1.14.0->google-cloud-translate) (1.6.3)
+Requirement already satisfied: googleapis-common-protos<2.0dev,>=1.6.0 in c:\users\mwola\files\coding\hackfree-2019\environment\lib\site-packages (from google-api-core[grpc]<2.0.0dev,>=1.14.0->google-cloud-translate) (1.6.0)
+Requirement already satisfied: requests<3.0.0dev,>=2.18.0 in c:\users\mwola\files\coding\hackfree-2019\environment\lib\site-packages (from google-api-core[grpc]<2.0.0dev,>=1.14.0->google-cloud-translate) (2.22.0)
+Requirement already satisfied: six>=1.10.0 in c:\users\mwola\files\coding\hackfree-2019\environment\lib\site-packages (from google-api-core[grpc]<2.0.0dev,>=1.14.0->google-cloud-translate) (1.12.0)
+Requirement already satisfied: grpcio<2.0dev,>=1.8.2; extra == "grpc" in c:\users\mwola\files\coding\hackfree-2019\environment\lib\site-packages (from google-api-core[grpc]<2.0.0dev,>=1.14.0->google-cloud-translate) (1.24.3)
+Requirement already satisfied: rsa>=3.1.4 in c:\users\mwola\files\coding\hackfree-2019\environment\lib\site-packages (from google-auth<2.0dev,>=0.4.0->google-api-core[grpc]<2.0.0dev,>=1.14.0->google-cloud-translate) (4.0)
+Requirement already satisfied: cachetools>=2.0.0 in c:\users\mwola\files\coding\hackfree-2019\environment\lib\site-packages (from google-auth<2.0dev,>=0.4.0->google-api-core[grpc]<2.0.0dev,>=1.14.0->google-cloud-translate) (3.1.1)
+Requirement already satisfied: pyasn1-modules>=0.2.1 in c:\users\mwola\files\coding\hackfree-2019\environment\lib\site-packages (from google-auth<2.0dev,>=0.4.0->google-api-core[grpc]<2.0.0dev,>=1.14.0->google-cloud-translate) (0.2.7)
+Requirement already satisfied: certifi>=2017.4.17 in c:\users\mwola\files\coding\hackfree-2019\environment\lib\site-packages (from requests<3.0.0dev,>=2.18.0->google-api-core[grpc]<2.0.0dev,>=1.14.0->google-cloud-translate) (2019.9.11)
+Requirement already satisfied: idna<2.9,>=2.5 in c:\users\mwola\files\coding\hackfree-2019\environment\lib\site-packages (from requests<3.0.0dev,>=2.18.0->google-api-core[grpc]<2.0.0dev,>=1.14.0->google-cloud-translate) (2.8)
+Requirement already satisfied: chardet<3.1.0,>=3.0.2 in c:\users\mwola\files\coding\hackfree-2019\environment\lib\site-packages (from requests<3.0.0dev,>=2.18.0->google-api-core[grpc]<2.0.0dev,>=1.14.0->google-cloud-translate) (3.0.4)
+Requirement already satisfied: urllib3!=1.25.0,!=1.25.1,<1.26,>=1.21.1 in c:\users\mwola\files\coding\hackfree-2019\environment\lib\site-packages (from requests<3.0.0dev,>=2.18.0->google-api-core[grpc]<2.0.0dev,>=1.14.0->google-cloud-translate) (1.25.6)
+Requirement already satisfied: pyasn1>=0.1.3 in c:\users\mwola\files\coding\hackfree-2019\environment\lib\site-packages (from rsa>=3.1.4->google-auth<2.0dev,>=0.4.0->google-api-core[grpc]<2.0.0dev,>=1.14.0->google-cloud-translate) (0.4.7)
+Installing collected packages: google-cloud-core, google-cloud-translate
+Successfully installed google-cloud-core-1.0.3 google-cloud-translate-2.0.0
+Collecting opencv-python
+  Downloading https://files.pythonhosted.org/packages/1f/51/e0b9cef23098bc31c77b0e06221dd8d05119b9782d4c2b1d1482e22b5f5e/opencv_python-4.1.1.26-cp37-cp37m-win_amd64.whl (39.0MB)
+Collecting numpy>=1.14.5
+  Downloading https://files.pythonhosted.org/packages/e9/dd/a177f27765b1e5f94fa879cbeef61f8807086371d0b6aa232b836d38b78b/numpy-1.17.3-cp37-cp37m-win_amd64.whl (12.7MB)
+Installing collected packages: numpy, opencv-python
+Successfully installed numpy-1.17.3 opencv-python-4.1.1.26
